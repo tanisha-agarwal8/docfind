@@ -1,0 +1,89 @@
+/* ChooseUs.css */
+
+.chooseus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F1F5F8;
+  }
+  
+  .chooseus-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 1rem;
+    width: 100%;
+    background-color: ##F1F5F8; /* Gray-200 */
+  }
+  
+  .chooseus-wrapper {
+    margin: 1rem 0 4rem;
+    width: 100%;
+    max-width: 1204px;
+  }
+  
+  .chooseus-inner {
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .chooseus-text {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+  }
+  
+  .chooseus-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: #007E85; /* Cyan-700 */
+  }
+  
+  .chooseus-description {
+    margin-top: 1.25rem;
+    line-height: 2rem;
+    color: #52525b; /* Neutral-600 */
+  }
+  
+  .chooseus-buttons {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .chooseus-button {
+    padding: 1.5rem 2.25rem;
+    font-weight: bold;
+    border-radius: 40px;
+    text-align: center;
+  }
+  
+  .get-started {
+    background-color: #007E85; /* Cyan-700 */
+    color: white;
+  }
+  
+  .talk-sales {
+    background-color: white;
+    color: #007E85; /* Cyan-700 */
+    border: 1px solid #d1d5db; /* Gray-300 */
+    border-radius: 36.55px;
+  }
+  
+  .chooseus-image-wrapper {
+    display: flex;
+    width: 57%;
+    margin-left:10%;
+    margin-top:-6%;
+  }
+  
+  .chooseus-image {
+    flex-grow: 1;
+    width: 100%;
+    aspect-ratio: 1.27;
+  }
+  

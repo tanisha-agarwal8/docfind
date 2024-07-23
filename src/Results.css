@@ -1,0 +1,66 @@
+/* Results.css */
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: ##F1F5F8; /* Gray-200 */
+    font-weight: bold;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    width: 100%;
+    margin-left:6%;
+    margin-top:5%;
+  }
+  
+  .results-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1212px;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  
+  .results-header {
+    margin-bottom: 4rem;
+  }
+  
+  .results-title {
+    font-size: 2.5rem;
+    color: #007E85; /* Cyan-700 */
+  }
+  
+  .results-list {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .results-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .results-percentage {
+    font-size: 3rem;
+    line-height: 50px;
+    color:#007E85;
+}
+
+.results-percentage span {
+      color: #76b5b8; /* Cyan-700 with opacity */
+    
+  }
+  
+  .results-description {
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #3f3f46; /* Zinc-800 */
+  }
+  
